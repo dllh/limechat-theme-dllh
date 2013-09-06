@@ -11,10 +11,8 @@ body {}
 .url { color: #d33682; } /* magenta */
 .address {}
 .highlight {
-  /* font-size: 160%; */
   font-weight: bold;
-  /* padding: 0 3px; */
-  color: green;   /* red */
+  color: green;
   background-color: yellow;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -32,7 +30,7 @@ body {}
 .place { color: #93a1a1; }  /* base1 */
 
 .sender[type=normal] { color: #268bd2; } /* blue */
-.sender[type=myself] { font-weight: bold; color: #93a1a1; } /* base1 */
+.sender[type=myself] { font-weight: bold; color: green; }
 
 .message[type=privmsg] {}
 .message[type=notice] { color: #859900; }   /* green */
